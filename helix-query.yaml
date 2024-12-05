@@ -1,0 +1,14 @@
+version: 1
+
+ indices:
+   blog:
+     include:
+      - '**'
+     exclude:
+      - '/drafts/**'
+    target: /blog/query-index.xlsx
+    properties:
+      title:
+        select: head > meta[property="og:title"]
+        value: |
+          attribute(el, 'content')

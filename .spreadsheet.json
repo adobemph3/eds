@@ -1,0 +1,15 @@
+{
+  "total": 2,
+  "offset": 0,
+  "limit": 2,
+  "data": [
+    {
+      "Key": "Add to Cart",
+      "Text": "Add to Cart"
+    },
+    {
+       "Key": "Click here for more",
+       "Text": "Click here for more"
+    }
+  ]
+}
